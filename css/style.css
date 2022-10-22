@@ -408,6 +408,7 @@ p {
     margin-left: 229px;
   }
   .header-menu__social__box {
+    display: flex;
     margin-left: 88px;
   }
 
