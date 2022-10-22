@@ -6,6 +6,7 @@
   --color-blue: #57bfe3;
   --color-textBlue: #065a9c;
   --color-tabletMain: #525c6f;
+  --color-newsText: #5a5a5a;
 }
 
 body {
@@ -29,6 +30,16 @@ p {
 .page-header {
   color: var(--color-white);
 }
+.menu__link--activ {
+  position: relative;
+  display: block;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: var(--color-textBlue);
+}
+
 .container-menu {
   display: flex;
   justify-content: end;

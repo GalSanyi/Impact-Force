@@ -1,0 +1,133 @@
+.news-container {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.news-img {
+  width: 100%;
+  height: 100%;
+}
+
+.news-box {
+  margin: 0 auto;
+  width: 800px;
+  height: 814px;
+}
+.news-box h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+  margin-bottom: 24px;
+  color: var(--color-textBlue);
+}
+.news-text {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 24px;
+  color: var(--title-color);
+}
+.news-box h2,
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 15px;
+  color: var(--color-textBlue);
+}
+.news-text__second {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 24px;
+  color: var(--color-newsText);
+}
+.news-text__second:last-child {
+  margin-bottom: 0;
+}
+
+.footer-news__box {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1440px;
+  height: 200px;
+  background: var(--color-textBlue);
+}
+
+.city-footer {
+  width: 1440px;
+  height: 280px;
+  margin: 0 auto;
+  background-image: url("../images/city-footer.png");
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footer-list__news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__link--activ {
+  position: relative;
+  display: block;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: var(--color-textBlue);
+}
+
+.news-social {
+  fill: var(--color-white);
+}
+.footer-news {
+  display: flex;
+  align-items: center;
+}
+
+.footer-news__media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: var(--color-white);
+  margin-right: 60px;
+}
+.footer-news__partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color-white);
+  margin-right: 190px;
+}
+.footer-news__text {
+  margin-right: 10px;
+}
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 60px;
+  color: var(--color-white);
+  border: 1px solid var(--color-white);
+  backdrop-filter: blur(1.5px);
+  border-radius: 16px;
+}
+
+.news-social__box {
+  display: flex;
+  padding: 0;
+}
+.news-social__item {
+  margin-right: 26px;
+}
