@@ -36,6 +36,16 @@ p {
   height: 80px;
   margin: 0 auto;
 }
+.logoKIF {
+  display: none;
+}
+.language {
+  display: flex;
+  margin-right: 155px;
+}
+.header-menu__logoKyiv {
+  display: none;
+}
 .header-menu {
   position: relative;
 }
@@ -364,7 +374,7 @@ p {
   }
   .header-menu__list {
     display: flex;
-    margin: 0;
+    margin: 0 66px 0 0;
     padding: 0;
   }
   .header-menu__list > li {
@@ -565,5 +575,46 @@ p {
   }
   .footer-item:nth-child(1) {
     margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container-menu {
+    justify-content: center;
+    width: 1440px;
+    height: 100px;
+  }
+  .logoKIF {
+    display: block;
+    margin-right: 155px;
+  }
+
+  .header-menu__box {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .header-menu__logo {
+    display: flex;
+    align-items: center;
+  }
+  .header-menu__social__box {
+    display: flex;
+    margin: 0 66px 0 0;
+  }
+  .header-menu__social {
+    display: flex;
+    align-items: center;
+  }
+  .header-menu__social:last-child {
+    margin-right: 0;
+  }
+  .header-menu__logoKyiv {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .header-menu__logoKyiv__item {
+    margin-right: 24px;
   }
 }
