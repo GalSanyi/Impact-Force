@@ -64,6 +64,9 @@ p {
   height: 24px;
 }
 /* if-section */
+.swiper {
+  display: none;
+}
 .if-section {
   width: 375px;
   height: 232px;
@@ -577,6 +580,9 @@ p {
   .footer-item:nth-child(1) {
     margin-right: 0;
   }
+  .swiper {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -617,5 +623,11 @@ p {
   }
   .header-menu__logoKyiv__item {
     margin-right: 24px;
+  }
+  .if-section {
+    display: none;
+  }
+  .swiper {
+    display: block;
   }
 }

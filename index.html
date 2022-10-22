@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
   </head>
   <body>
     <header class="page-header">
@@ -22,10 +25,10 @@
               </a>
             </div>
             <ul class="header-menu__list">
-              <li>Home</li>
-              <li>Program</li>
-              <li>News</li>
-              <li>Contacts</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contacts</a></li>
             </ul>
           </div>
           <div class="header-menu__social__box">
@@ -66,11 +69,54 @@
     </header>
     <main>
       <section>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/main-slider-desktop.png" />
+            </div>
+            <div class="swiper-slide">
+              <ul class="slide-list">
+                <li class="slide-item">
+                  <div class="slide-text__box">
+                    <p class="slide-text__one">Lorem ipsum dolor sit amet</p>
+                    <p class="slide-text__two">
+                      consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad
+                      minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                      dolor in reprehenderit in voluptate velit esse cillum...
+                    </p>
+                    <div class="slide-btn__box">
+                      <button class="slide-btn" type="button">more</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="slide-item__two">
+                  <div class="slide-text__box">
+                    <p class="slide-text__one">Lorem ipsum dolor sit amet</p>
+                    <p class="slide-text__two">
+                      consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad
+                      minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                      dolor in reprehenderit in voluptate velit esse cillum...
+                    </p>
+                    <div class="slide-btn__box">
+                      <button class="slide-btn" type="button">more</button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
         <div class="if-section">
           <a href="#">
             <img class="if-logo" src="./images/logo.png" />
           </a>
-
           <p class="if-text">
             A Ukrainian NGO focussed on social behaviour change, lasting social
             impact, creating economic opportunities and taking action for the
@@ -233,5 +279,9 @@
         </ul>
       </div>
     </footer>
+    <!-- swiper js -->
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
