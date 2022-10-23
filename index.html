@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/news.css" />
   </head>
   <body>
     <header class="page-header">
@@ -21,14 +22,16 @@
           <div class="header-menu__logo">
             <div class="logoKIF">
               <a href="#">
-                <img src="./images/LogoKIF2022.png" />
+                <img src="./images/LogoKIF2022.png" alt="Logo" />
               </a>
             </div>
             <ul class="header-menu__list">
-              <li><a class="menu__link--activ" href="#">Home</a></li>
-              <li><a href="#">Program</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Contacts</a></li>
+              <li>
+                <a class="header-menu__item menu__link--activ" href="#">Home</a>
+              </li>
+              <li><a class="header-menu__item" href="#">Program</a></li>
+              <li><a class="header-menu__item" href="#">News</a></li>
+              <li><a class="header-menu__item" href="#">Contacts</a></li>
             </ul>
           </div>
           <div class="header-menu__social__box">
@@ -44,17 +47,17 @@
             </a>
           </div>
           <div class="language">
-            <p><a href="#">ENG</a></p>
-            <p>/</p>
-            <p><a href="#">UKR</a></p>
+            <p><a class="language-link " href="#">ENG</a></p>
+            <p class="language-item">/</p>
+            <p><a class="language-link " href="#">UKR</a></p>
           </div>
 
           <ul class="header-menu__logoKyiv">
             <li class="header-menu__logoKyiv__item">
-              <img src="./images/LogoKyiv 1.png" />
+              <img src="./images/LogoKyiv.png" alt="Logo" />
             </li>
             <li>
-              <img src="./images/Logo-Brus 1.png" />
+              <img src="./images/Logo-Brus.png" alt="Logo" />
             </li>
           </ul>
         </div>
@@ -72,7 +75,7 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="./images/main-slider-desktop.png" />
+              <img src="./images/main-slider-desktop.png" alt="Slider images" />
             </div>
             <div class="swiper-slide">
               <ul class="slide-list">
@@ -115,11 +118,10 @@
           </div>
           <div class="swiper-button-next nav-btn"></div>
           <div class="swiper-button-prev nav-btn"></div>
-          <div class="swiper-pagination"></div>
         </div>
         <div class="if-section">
           <a href="#">
-            <img class="if-logo" src="./images/logo.png" />
+            <img class="if-logo" src="./images/logo.png" alt="Logo" />
           </a>
           <p class="if-text">
             A Ukrainian NGO focussed on social behaviour change, lasting social
@@ -128,14 +130,48 @@
           </p>
         </div>
       </section>
-      <section>
+      <section class="wraper">
         <div class="people-box"></div>
+        <div class="video-box">
+          <div>
+            <iframe
+              width="720"
+              height="405"
+            "
+              src="https://www.youtube.com/embed/GdFZfcZqWvE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>20.10.22, The City Of Brussels</p>
+          </div>
+          <div>
+            <iframe
+              width="720"
+              height="405"
+            "
+              src="https://www.youtube.com/embed/gfUSAEJINRY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>20.10.22, The City Of Brussels</p>
+          </div>
+        </div>
       </section>
       <section>
         <div class="section-box">
           <h1 class="section-box__title">
             Who we are
           </h1>
+          <div class="program">
+            <h1 class="section-title__program">
+              program
+            </h1>
+            <div class="program-bg"></div>
+          </div>
 
           <div class="people-box__list">
             <div class="people-box__container">
@@ -200,7 +236,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="fields-section">
         <h3 class="fields-maine__text">fields of expertise</h3>
         <div class="fields-box">
           <ul class="fields-list">
@@ -236,6 +272,29 @@
         </div>
       </section>
       <section>
+        <div class="news">
+          <h2>NEWS</h2>
+        </div>
+        <div class="swiper mySwiper-container" id="mix">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="slide-img"
+                src="./images/Desktop.png"
+                alt="Slider image"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="slide-img"
+                src="./images/Desktop.png"
+                alt="Slider image"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+        </div>
         <div class="city">
           <h4 class="city-title">
             strategic focus areas
@@ -257,23 +316,54 @@
         </div>
       </section>
     </main>
-
-    <footer>
-      <div>
+     <footer>
+      <div class="footer-news__box">
+        <ul class="footer-list__news">
+          <li class="footer-news__media">
+            <p class="footer-news__text">Media</p>
+            <a class="footer-news__link" href="#">
+              press@impactforce.com.ua
+            </a>
+          </li>
+          <li class="footer-news__partners">
+            <p class="footer-news__text">Partners</p>
+            <a class="footer-news__link" href="#">
+              partners@impactforce.com.ua
+            </a>
+          </li>
+          <ul class="news-social__box">
+            <li class="news-social__item">
+              <a href="#" class="news-social">
+                <svg width="24" height="24">
+                  <use href="./images/svg/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="news-social">
+                <svg width="24" height="24">
+                  <use href="./images/svg/symbol-defs.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+      <!-- <div class="footer">
         <ul class="footer-list">
           <li class="footer-item">
             <button class="footer-btn">
               <p class="footer-item__text">download report</p>
             </button>
           </li>
-          <li class="footer-item">
-            <button class="footer-btn__link">
-              <a class="footer-link" href="#">
+          <li class="footer-item__link">
+          
+              <a class="item-link" href="#">
                 olga.diakova@impactforce.com.ua
               </a>
-            </button>
+           
           </li>
-          <li class="footer-item">
+          <li id="footer-item">
             <div class="logo2">
               <a href="#">
                 <img src="./images/logo2.png" />
@@ -281,10 +371,9 @@
             </div>
           </li>
         </ul>
-      </div>
+      </div> -->
     </footer>
     <!-- swiper js -->
-
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>

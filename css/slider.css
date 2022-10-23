@@ -79,6 +79,7 @@
   }
   .slide-list {
     display: flex;
+    padding: 0;
   }
   .slide-text__one {
     font-weight: 700;
