@@ -452,6 +452,7 @@ p {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    text-decoration: none;
     text-transform: uppercase;
     color: var(--color-textBlue);
   }
@@ -642,7 +643,7 @@ p {
 }
 
 @media screen and (min-width: 1440px) {
-  page-header {
+  .page-header {
     position: sticky;
     top: 0;
     z-index: 2;
