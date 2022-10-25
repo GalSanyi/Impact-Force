@@ -51,10 +51,7 @@ p {
 .header-menu__item {
   text-decoration: none;
 }
-.language {
-  display: flex;
-  margin-right: 155px;
-}
+
 .header-menu__logoKyiv {
   display: none;
 }
@@ -448,6 +445,11 @@ p {
     fill: var(--color-textBlue);
     margin-right: 26px;
   }
+  .language {
+    display: flex;
+    width: 67px;
+    margin-right: 155px;
+  }
   .language-link {
     font-weight: 400;
     font-size: 14px;
@@ -456,10 +458,10 @@ p {
     text-transform: uppercase;
     color: var(--color-textBlue);
   }
-  .language-link:hover::after,
+  /* .language-link:hover::after,
   .language-link:focus::after {
     opacity: 1;
-  }
+  } */
 
   .language-link:hover,
   .language-link:focus {
