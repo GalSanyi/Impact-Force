@@ -27,9 +27,7 @@ ul {
 p {
   margin: 0;
 }
-.page-header {
-  color: var(--color-white);
-}
+
 .menu__link--activ {
   position: relative;
   display: block;
@@ -644,7 +642,13 @@ p {
 }
 
 @media screen and (min-width: 1440px) {
+  page-header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
   .container-menu {
+    background: var(--color-white);
     justify-content: center;
     width: 1440px;
     height: 100px;
