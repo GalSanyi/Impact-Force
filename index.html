@@ -21,9 +21,6 @@
         <div class="header-menu__box">
           <div class="header-menu__logo">
             <div class="logoKIF">
-              <a href="#">
-                <img src="./images/LogoKIF2022.png" alt="Logo" />
-              </a>
             </div>
             <ul class="header-menu__list">
               <li>
@@ -54,20 +51,30 @@
 
           <ul class="header-menu__logoKyiv">
             <li class="header-menu__logoKyiv__item">
-              <img src="./images/LogoKyiv.png" alt="Logo" />
             </li>
-            <li>
-              <img src="./images/Logo-Brus.png" alt="Logo" />
+            <li class="header-menu__brus">
             </li>
           </ul>
         </div>
-        <nav class="header-menu">
-          <button type="button" class="menu-btn">
-            <svg class="btn-icon">
-              <use href="./images/svg/symbol-defs.svg#Burger"></use>
-            </svg>
-          </button>
-        </nav>
+      </div>
+      <div class="sub-container">
+        <div class="social-sub">
+   <a href="#" class="header-menu__social">
+                <svg width="24" height="24">
+                  <use href="./images/svg/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/" class="header-menu__social">
+                <svg width="24" height="24">
+                  <use href="./images/svg/symbol-defs.svg#facebook"></use>
+                </svg>
+              </a>
+        </div>
+        <div class="sub-language">
+           <p><a class="language-link " href="#">ENG</a></p>
+            <p class="language-item">/</p>
+            <p><a class="language-link " href="#">UKR</a></p>
+        </div>
       </div>
     </header>
     <main>
@@ -75,7 +82,8 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="./images/main-slider-desktop.png" alt="Slider images" />
+              <div class="main-slider"></div>
+              <!-- <img src="./images/main-slider-desktop.png" alt="Slider images" /> -->
             </div>
             <div class="swiper-slide">
               <ul class="slide-list">
@@ -119,19 +127,10 @@
           <div class="swiper-button-next nav-btn"></div>
           <div class="swiper-button-prev nav-btn"></div>
         </div>
-        <div class="if-section">
-          <a href="#">
-            <img class="if-logo" src="./images/logo.png" alt="Logo" />
-          </a>
-          <p class="if-text">
-            A Ukrainian NGO focussed on social behaviour change, lasting social
-            impact, creating economic opportunities and taking action for the
-            common good
-          </p>
-        </div>
+    
       </section>
-      <section class="wraper">
-        <div class="people-box"></div>
+      <section class="wrapper">
+      
         <div class="video-box">
           <div>
             <iframe
@@ -161,158 +160,149 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="section-box">
-          <h1 class="section-box__title">
-            Who we are
-          </h1>
-          <div class="program">
-            <h1 class="section-title__program">
-              program
-            </h1>
-            <div class="program-bg"></div>
-          </div>
+   <section>
+    <div class="program">
+      <h1 class="program__text">program</h1>
+ <table>
+	<thead>
+		<tr>
+			<td class="table__slot">Time Slot</td>
+			<td class="activity">Activity</td>
+			
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="table__time">8:00—9:00</td>
+			<td class="table-text__blue">Registration. Morning coffee</td>
+			
+		</tr>
+		<tr class="bg">
+			<td class="table__time">9:00—10:00</td>
+			<td class="table-text__red">Keynote session</td>
+		
+		</tr>
+		<tr class="bg">
+			<td class="table__time"></td>
+			<td class="table-text__grey">Resilience. Innovation. Sustainability</td>
+		
+		</tr>
 
-          <div class="people-box__list">
-            <div class="people-box__container">
-              <h2 class="section-box__second-title">MISSION</h2>
-              <p class="section-box__text">
-                Transforming social behaviour and business to achieve socially
-                impactful results.
-              </p>
-            </div>
+    	<tr>
+			<td class="table__time">10:00—11:30</td>
+			<td class="table-text__red">Panel discussion No1</td>
+		</tr>
+    	<tr>
+			<td></td>
+			<td class="table-text__grey">Future of urban endurance</td>
+		</tr>
+    	<tr class="bg">
+			<td class="table__time">11:30—12:00</td>
+			<td class="table-text__blue">Signing ceremony of memorandums</td>
+		</tr>
+    	<tr >
+			<td class="table__time">12:00—13:30</td>
+			<td class="table-text__blue">Lunch</td>
+		</tr>
+    	<tr class="bg">
+			<td class="table__time">13:30—14:30</td>
+			<td class="table-text__red">Panel discussion No2</td>
+		</tr>
+    	<tr class="bg">
+			<td></td>
+			<td class="table-text__grey">Investments in recovery and development of greater Kyiv</td>
+		</tr>
+    	<tr>
+			<td class="table__time">14:30—15:30</td>
+			<td class="table-text__red">Panel discussion No3
+</td>
+		</tr>
+    	<tr>
+			<td></td>
+			<td class="table-text__grey">Social economy as a driver for Kyiv’s revival</td>
+		</tr>
+    	<tr class="bg">
+			<td class="table__time">15:30—16:30</td>
+			<td class="table-text__red">Panel discussion No4
+</td>
+		</tr>
+    	<tr class="bg">
+			<td></td>
+			<td >Emerging technologies to reform greater Kyiv
+</td>
+		</tr>
+    	<tr>
+			<td class="table__time">16:30—18:30</td>
+			<td class="table-text__blue">Networking. Cocktails, Musical performance
+</td>
+		</tr>
+    	<tr class="bg">
+			<td class="table__time">19:00—20:00</td>
+			<td class="table-text__blue">Q&A session with Mayors of the city of Brussels & Kyiv
+</td>
+		</tr>
+	</tbody>
+</table>
 
-            <div class="people-box__container">
-              <h2 class="section-box__second-title">VISION</h2>
-              <p class="section-box__text">
-                United leadership, expertise, human potential, to foster a
-                sustainable, prosperous Ukraine with a strong voice in the
-                modern democratic world.
-              </p>
-            </div>
-            <div>
-              <h2 class="section-box__second-title">VALUES</h2>
-              <p class="section-box__text">
-                Collaboration — we unite. Diversity & Inclusion - we value.
-                Authenticity & Creativity — we drive. Sustainability &
-                Transparency — we care. A win-win mentality — we synergise.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    </div>
+   </section>
       <section>
-        <div class="section-girl__img"></div>
-        <div class="section-girl__content">
-          <h3 class="section-girl__text">strategic focus areas</h3>
-        </div>
-      </section>
-      <section class="pictures-set__box">
-        <ul class="pictures-set">
-          <li class="mobile-girl">
-            <p>
-              Domestic business & talents through social economy
-            </p>
-          </li>
-          <li class="mobile-girl__2">
-            <p>
-              Gender equality & human rights
-            </p>
-          </li>
-        </ul>
-        <div class="mobile-girl__3">
-          <p>
-            Sustainable health
-          </p>
-        </div>
-        <ul class="pictures-set">
-          <li class="mobile-girl__4">
-            <p>Climate change & Food security</p>
-          </li>
-          <li class="mobile-girl__5">
-            <p>
-              Ukrainian heritage: culture, art and history
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="fields-section">
-        <h3 class="fields-maine__text">fields of expertise</h3>
-        <div class="fields-box">
-          <ul class="fields-list">
-            <li class="fields-list__item">
-              <p class="field-list__text">Education & growth</p>
-            </li>
-            <li class="fields-list__item">
-              <p class="field-list__text">Strategy and road map development</p>
-            </li>
-            <li class="fields-list__item">
-              <p class="field-list__text">Behavior changing & transformation</p>
-            </li>
-            <li class="fields-list__item">
-              <p class="field-list__text">Management consulting</p>
-            </li>
-            <li class="fields-list__item">
-              <p class="field-list__text">Social impact communication</p>
-            </li>
-            <li class="fields-list__item">
-              <p class="field-list__text">
-                Match making: investors & partners / donors
-              </p>
-            </li>
-            <li class="fields-list__item">
-              <p class="field-list__text">
-                Social impact assumption / break-down session
-              </p>
-            </li>
-            <li class="fields-list__item">
-              <p class="field-list__text">Digitalization</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section>
-        <div class="news">
-          <h2>NEWS</h2>
-        </div>
         <div class="swiper mySwiper-container" id="mix">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img
-                class="slide-img"
-                src="./images/Desktop.png"
-                alt="Slider image"
-              />
+              <div class="slide-img__1">
+          <div class="slider-text__container">
+                  <p class="slide-img__text">
+                  News Heheader lorem ipsum dolore lorem ipsum dolore
+                </p>
+                <p  class="slide-img__text_2">Read More...</p>
+          </div>
+              </div>
             </div>
             <div class="swiper-slide">
-              <img
-                class="slide-img"
-                src="./images/Desktop.png"
-                alt="Slider image"
-              />
+              <div class="slide-img__2">
+                  <div class="slider-text__container">
+                  <p class="slide-img__text">
+                  News Heheader lorem ipsum dolore lorem ipsum dolore
+                </p>
+                <p  class="slide-img__text_2">Read More...</p>
+          </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-img__3">
+                 <div class="slider-text__container">
+                  <p class="slide-img__text">
+                  News Heheader lorem ipsum dolore lorem ipsum dolore
+                </p>
+                <p  class="slide-img__text_2">Read More...</p>
+          </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-img__4">
+                <div class="slider-text__container">
+                  <p class="slide-img__text">
+                  News Heheader lorem ipsum dolore lorem ipsum dolore
+                </p>
+                <p  class="slide-img__text_2">Read More...</p>
+          </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-img__5">
+               <div class="slider-text__container">
+                  <p class="slide-img__text">
+                  News Heheader lorem ipsum dolore lorem ipsum dolore
+                </p>
+                <p  class="slide-img__text_2">Read More...</p>
+          </div>
+                
+              </div>
             </div>
           </div>
           <div class="swiper-button-next nav-btn"></div>
           <div class="swiper-button-prev nav-btn"></div>
-        </div>
-        <div class="city">
-          <h4 class="city-title">
-            strategic focus areas
-          </h4>
-          <h4 class="city-title__2">
-            CHALENGING STATUS QUO
-          </h4>
-        </div>
-        <div class="city-second__box">
-          <p class="city-second__text">
-            We bring together world leaders, transnational corporations,
-            international NGOs and best in class education practices from the
-            world's leading institutions in order to create a powerful
-            community, an effective ecosystem that is helping Ukraine in the
-            creation of a modern social economy and democracy. Our goal is to
-            enable, develop and strengthen the voice of Ukraine in the modern
-            world.
-          </p>
         </div>
       </section>
     </main>
@@ -349,29 +339,7 @@
           </ul>
         </ul>
       </div>
-      <!-- <div class="footer">
-        <ul class="footer-list">
-          <li class="footer-item">
-            <button class="footer-btn">
-              <p class="footer-item__text">download report</p>
-            </button>
-          </li>
-          <li class="footer-item__link">
-          
-              <a class="item-link" href="#">
-                olga.diakova@impactforce.com.ua
-              </a>
-           
-          </li>
-          <li id="footer-item">
-            <div class="logo2">
-              <a href="#">
-                <img src="./images/logo2.png" />
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div> -->
+
     </footer>
     <!-- swiper js -->
     <script src="js/swiper-bundle.min.js"></script>
