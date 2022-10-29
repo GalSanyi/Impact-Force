@@ -111,7 +111,7 @@ p {
     padding-top: 16px;
   }
   .container-menu {
-    /* background: var(--color-white); */
+    margin: 0 auto;
     background-image: url("../images/Tab.png");
     justify-content: center;
     width: 834px;
@@ -191,6 +191,7 @@ p {
   .sub-container {
     display: flex;
     align-items: center;
+    margin: 0 auto;
     justify-content: space-between;
     width: 834px;
     height: 40px;
@@ -304,22 +305,22 @@ p {
     display: flex;
     align-items: self-end;
     justify-content: center;
-    width: 720px;
-    height: 660px;
-    background-image: url("../images/klichko.png");
+    width: 417px;
+    height: 382px;
+    background-image: url("../images/klichko-tab.png");
   }
   .slide-text__box {
-    width: 600px;
+    width: 377px;
     color: var(--color-white);
   }
   .slide-item__two {
     display: flex;
     align-items: self-end;
     justify-content: center;
-    width: 720px;
-    height: 660px;
+    width: 417px;
+    height: 382px;
     color: var(--color-white);
-    background-image: url("../images/new-slider2.png");
+    background-image: url("../images/news-slider2_tab.png");
   }
   .slide-list {
     display: flex;
@@ -327,14 +328,19 @@ p {
   }
   .slide-text__one {
     font-weight: 700;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 24px;
+    line-height: 28px;
     margin-bottom: 15px;
   }
   .slide-text__two {
+    display: none;
+  }
+  .slide-text__two_tab {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+
+    color: #ffffff;
   }
   .slide-btn {
     display: flex;
@@ -351,7 +357,7 @@ p {
   .slide-btn__box {
     display: flex;
     justify-content: center;
-    margin: 30px 0 40px 0;
+    margin: 20px 0 20px 0;
   }
   .slide-btn:hover,
   .slide-btn:focus {
@@ -548,12 +554,6 @@ p {
     width: 194px;
     color: #5a5a5a;
   }
-  /* table tbody tr {
-    background-color: #f9fafb;
-  } */
-  /* table tbody tr:nth-child(odd) {
-    background-color: #ffffff;
-  } */
 
   table thead td:last-child {
     width: 806px;

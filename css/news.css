@@ -3,6 +3,7 @@
   height: 600px;
   margin: 0 auto;
   margin-bottom: 24px;
+  background-image: url("../images/News_Image.jpg");
 }
 .news-img {
   width: 100%;
@@ -127,4 +128,12 @@ h3 {
   line-height: 28px;
   color: var(--color-white);
   margin-right: 10px;
+}
+
+@media screen and (min-width: 834px) {
+  .news-container {
+    width: 834px;
+    height: 500px;
+    background-image: url("../images/News_Image-tab.jpg");
+  }
 }
