@@ -46,9 +46,6 @@ p {
   position: relative;
 }
 
-.video-box {
-  display: none;
-}
 .people-img {
   min-width: 375px;
   height: 180px;
@@ -363,6 +360,27 @@ p {
   .slide-btn:focus {
     background: rgba(255, 255, 255, 0.1);
   }
+  /* video box */
+  .video-box {
+    display: flex;
+    width: 834px;
+    height: 326px;
+    margin: 0 auto;
+    padding-top: 32px;
+    background: var(--color-textBlue);
+  }
+  .video-box p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 15px;
+    color: var(--color-white);
+  }
+  iframe {
+    width: 417px;
+    height: 234.56px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -451,6 +469,10 @@ p {
     text-align: center;
     margin-top: 23px;
     color: var(--color-white);
+  }
+  iframe {
+    width: 720px;
+    height: 405px;
   }
   .program__text {
     font-weight: 700;
