@@ -48,10 +48,6 @@ p {
   position: relative;
 }
 
-.people-img {
-  min-width: 375px;
-  height: 180px;
-}
 .footer-list {
   margin: 0;
   padding: 0;
@@ -101,10 +97,154 @@ p {
   text-align: center;
   margin: 32px 32px;
 }
+/* header */
+.container-menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 auto;
+  background-image: url("../images/Tab.png");
+  width: 375px;
+  height: 80px;
+}
+.header-menu__box {
+  padding-bottom: 10px;
+}
+.header-menu__logo {
+  display: flex;
+}
+.header-menu__list {
+  display: flex;
+  margin: 0 66px 0 0;
+  padding: 0;
+}
+.header-menu__list > li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: var(--color-textBlue);
+  margin-right: 14px;
+}
+.header-menu__list > li:last-child {
+  margin-right: 0;
+}
+
+.header-menu__social__box {
+  display: flex;
+  margin-left: 88px;
+}
+
+.header-menu__social {
+  fill: var(--color-textBlue);
+  margin-right: 26px;
+}
+.language {
+  display: none;
+}
+.language-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-textBlue);
+}
+
+.language-link:hover,
+.language-link:focus {
+  font-weight: 900;
+}
+
+.language-item {
+  color: var(--color-textBlue);
+}
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.logoKIF {
+  width: 122px;
+  height: 35px;
+  margin: 0 54px 0 0;
+
+  background-image: url("../images/LogoKIF2022-mob.png");
+  background-repeat: no-repeat;
+}
+
+.header-menu__box {
+  display: flex;
+  margin-left: 200px;
+  margin-left: 0;
+  align-items: center;
+}
+.header-menu__logoKyiv {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.header-menu__logoKyiv__item {
+  background-image: url("../images/LogoKyiv-mob.png");
+  background-repeat: no-repeat;
+  width: 94px;
+  height: 35px;
+}
+.header-menu__brus {
+  background-image: url("../images/Logo-Brus-mob.png");
+  background-repeat: no-repeat;
+  width: 66px;
+  height: 33px;
+}
+.header-menu__social__box {
+  display: none;
+}
+.header-menu__list {
+  display: none;
+}
+
+/* sub-container */
+.sub-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 375px;
+  height: 40px;
+  background-image: url("../images/social-Tab.png");
+}
+
+.sub-language {
+  display: flex;
+}
+
+/* .social-sub {
+  display: flex;
+  margin-left: 22px;
+}
+.sub-language {
+  display: flex;
+  margin-right: 40px;
+}
+
+.header-menu__logo {
+  display: flex;
+  align-items: center;
+}
+.header-menu__social__box {
+  display: flex;
+  margin: 0 66px 0 0;
+}
+.header-menu__social {
+  display: flex;
+  align-items: center;
+} */
 
 /* @media */
 
 @media screen and (min-width: 834px) {
+  /* header */
   .header-menu__box {
     display: flex;
     padding-top: 16px;
@@ -185,6 +325,17 @@ p {
     margin-left: 0;
     align-items: center;
   }
+  .header-menu__logoKyiv__item {
+    background-image: url("../images/LogoKyiv-tab.png");
+    width: 120px;
+    height: 45px;
+    margin-right: 24px;
+  }
+  .header-menu__brus {
+    background-image: url("../images/Logo-Brus-tab.png");
+    width: 90px;
+    height: 45px;
+  }
 
   /* sub-container */
   .sub-container {
@@ -224,17 +375,6 @@ p {
     display: flex;
     margin: 0;
     padding: 0;
-  }
-  .header-menu__logoKyiv__item {
-    background-image: url("../images/LogoKyiv-tab.png");
-    width: 120px;
-    height: 45px;
-    margin-right: 24px;
-  }
-  .header-menu__brus {
-    background-image: url("../images/Logo-Brus-tab.png");
-    width: 90px;
-    height: 45px;
   }
 
   .header-menu__social__box {
