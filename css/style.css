@@ -235,6 +235,7 @@ button {
 .header-burger__container {
   display: flex;
   align-items: center;
+  margin-right: 11px;
 }
 
 .social-sub {
@@ -246,6 +247,66 @@ button {
   height: 50px;
 }
 
+.burger {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/svg/List.svg");
+}
+.burger_active {
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/svg/cross.svg");
+}
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 375px;
+  height: 40px;
+  background: #065a9c;
+  overflow: auto;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+
+  /* White */
+
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: flex;
+}
 /* .social-sub {
   display: flex;
   margin-left: 22px;
@@ -268,6 +329,9 @@ button {
 /* @media */
 
 @media screen and (min-width: 834px) {
+  .burger {
+    display: none;
+  }
   /* header */
   .header-menu__box {
     display: flex;
