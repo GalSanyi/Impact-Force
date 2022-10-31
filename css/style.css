@@ -684,6 +684,13 @@ height: 320px;
   }
  
   /* header */
+  .header-menu__item {
+ font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-transform: capitalize;
+color: var(--color-textBlue);
+  }
   .header-menu__box {
     display: flex;
     padding-top: 16px;
