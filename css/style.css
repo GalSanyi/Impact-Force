@@ -307,6 +307,7 @@ button {
 
 .show {
   display: flex;
+  justify-content: space-around;
 
 
 }
@@ -373,30 +374,62 @@ height: 260px;
   color: var(--color-textBlue);
 }
 
-.slide-item {
+.slide-mob {
   display: flex;
   align-items: self-end;
   justify-content: center;
   width: 375px;
   height: 260px;
-  background-image: url("../images/klichko-tab.png");
+  font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+  color: var(--color-white);
+  background-image: url("../images/klichko-mob.png");
 }
 .slide-text__box {
   width: 377px;
   color: var(--color-white);
 }
-.slide-item__two {
+.slide-mob__two {
   display: flex;
   align-items: self-end;
   justify-content: center;
-  width: 417px;
-  height: 382px;
+  font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+  width: 375px;
+  height: 260px;
   color: var(--color-white);
-  background-image: url("../images/news-slider2_tab.png");
+  background-image: url("../images/news-slider2_mob.png");
+}
+.slide-btn_mob{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 200px;
+height: 40px;
+bottom: 20px;
+margin: 0 auto;
+margin-bottom: 20px;
+border: 1px solid var(--color-white);
+backdrop-filter: blur(1.5px);
+border-radius: 16px;
+}
+.slide-mob__text{
+  margin-bottom: 13px;
+}
+.slide__link{
+  text-decoration: none;
+  font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: var(--color-white);
 }
 .slide-list {
   display: flex;
   padding: 0;
+  margin: 0;
 }
 .slide-text__one {
   font-weight: 700;
@@ -435,6 +468,9 @@ height: 260px;
 .slide-btn:focus {
   background: rgba(255, 255, 255, 0.1);
 }
+#mob_version{
+  display: none;
+}
 
 /* .social-sub {
   display: flex;
@@ -458,7 +494,15 @@ height: 260px;
 /* @media */
 
 @media screen and (min-width: 834px) {
-
+  #mob_version{
+    display: block;
+  }
+  #slide_1{
+    display: none;
+  }
+  #slide_2{
+    display: none;
+  }
   .burger {
     display: none;
   }
@@ -687,6 +731,7 @@ height: 260px;
   .slide-list {
     display: flex;
     padding: 0;
+    margin: 0;
   }
   .slide-text__one {
     font-weight: 700;
