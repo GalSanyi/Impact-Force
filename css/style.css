@@ -324,7 +324,7 @@ button {
   font-size: 18px;
   background: var(--color-white);
 
-  /* Center slide text vertically */
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -570,6 +570,82 @@ height: 320px;
 height: 320px;
   background-image: url("../images/slide-mob__5.png");
 }
+.slide-img__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 18px;
+  color: var(--color-white);
+}
+.slide-img__text_2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--color-white);
+  text-align: center;
+}
+.slider-text__container {
+  margin-bottom: 20px;
+}
+/* Footer */
+.footer-news__box {
+  
+  justify-content: center;
+  margin: 0 auto;
+  width: 375px;
+  height: 348px;
+  background: var(--color-textBlue);
+}
+
+.footer-news__partners {
+  order: 0;
+}
+.footer-news__text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color-white);
+  margin-right: 0;
+  margin-bottom: 11px;
+  display: flex;
+  justify-content: center;
+}
+.news-social__box {
+  display: flex;
+  align-items: center;
+  margin: 38px auto;
+  padding: 0;
+}
+.footer-news__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  width: 300px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: lowercase;
+  color: var(--color-white);
+  text-decoration: none;
+  border: 1px solid var(--color-white);
+  backdrop-filter: blur(1.5px);
+  border-radius: 16px;
+}
+.news-social__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.news-social__item{
+  margin-right: 26px;
+}
+.footer-news__media {
+  padding: 30px 0 30px 0;
+}
+
 
 @media screen and (min-width: 834px) {
   .sub-language
@@ -1061,6 +1137,9 @@ height: 320px;
     background-image: url(../images/city-tooter__tab.png);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-repeat: no-repeat;
+  }
+  .news-social {
+    fill: var(--color-white);
   }
 }
 
