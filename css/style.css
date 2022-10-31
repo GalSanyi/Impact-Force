@@ -469,6 +469,7 @@ color: var(--color-white);
 .slide-btn:focus {
   background: rgba(255, 255, 255, 0.1);
 }
+
 #mob_version{
   display: none;
 }
@@ -486,53 +487,92 @@ height: 235px;
   background: var(--color-textBlue);
 }
 .video-box p{
-  font-weight: 700;
+  margin-top: 16px;
+font-weight: 700;
 font-size: 20px;
 line-height: 23px;
 text-align: center;
-
-/* White */
-
-color: #FFFFFF;
+color: var(--color-white);
 }
 .video__content{
   width: 375px;
 height: 315px;
 }
-/* 
-.video-box p {
+.program__text {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 40px;
+  line-height: 47px;
   text-align: center;
-  margin-top: 15px;
+  text-transform: uppercase;
+  margin: 32px 0 32px 0;
+  color: var(--title-color);
+}
+
+ /* news */
+ .news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 375px;
+  height: 111px;
+  background: var(--color-textBlue);
+}
+
+.news__text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
   color: var(--color-white);
 }
 
-} */
-
-/* .social-sub {
-  display: flex;
-  margin-left: 22px;
+#mix{
+  height: 100%;
 }
-.sub-language {
+.slide-img__1 {
   display: flex;
-  margin-right: 40px;
+  justify-content: center;
+  align-items: self-end;
+  width: 375px;
+height: 320px;
+  background-image: url("../images/slide-mob.png");
 }
-
-.header-menu__logo {
+.slide-img__2 {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: self-end;
+  width: 375px;
+height: 320px;
+  background-image: url("../images/slide-mob__2.png");
 }
-.header-menu__social__box {
+.slide-img__3 {
   display: flex;
-  margin: 0 66px 0 0;
+  justify-content: center;
+  align-items: self-end;
+  width: 375px;
+height: 320px;
+  background-image: url("../images/slide-mob__3.png");
 }
- */
-
-/* @media */
+.slide-img__4 {
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+  width: 375px;
+height: 320px;
+  background-image: url("../images/slide-mob__4.png");
+}
+.slide-img__5 {
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+  width: 375px;
+height: 320px;
+  background-image: url("../images/slide-mob__5.png");
+}
 
 @media screen and (min-width: 834px) {
+  .sub-language
   .video__content{
     width: 417px;
   }

@@ -112,6 +112,7 @@ font-weight: 700;
 font-size: 20px;
 line-height: 23px;
     margin-bottom: 15px;
+    margin-top: 18px;
     color: var(--color-textBlue);
   }
   .news-text__second {
@@ -120,7 +121,7 @@ line-height: 23px;
     font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-    margin-bottom: 24px;
+
     color: var(--color-newsText);
   }
   .news-text__second:last-child {
