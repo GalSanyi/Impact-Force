@@ -5,11 +5,11 @@
 const mainBox = document.querySelector('.drop-table');
 console.log(mainBox);
 
-const arrayID = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+const arrayID = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '11']
 
 const onClick = (e) => {
   console.log(e.target.id);
-
+  // if (e.target != ".cross") return;
   if (arrayID.includes(e.target.id)) {
     const currentTime = document.getElementById(`${e.target.id}`);
     const currentText = document.getElementById(`${e.target.id}T`);
