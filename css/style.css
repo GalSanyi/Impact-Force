@@ -480,8 +480,6 @@ height: 235px;
 }
 .video-box {
  width: 375px;
- 
- 
   margin: 0 auto;
   padding-top: 32px;
   background: var(--color-textBlue);
@@ -534,7 +532,7 @@ height: 315px;
   display: flex;
   justify-content: center;
   align-items: self-end;
-  width: 375px;
+  width: 100%;
 height: 320px;
   background-image: url("../images/slide-mob.png");
 }
@@ -660,6 +658,53 @@ height: 320px;
   display: block;
 }
 
+
+
+.program__table{
+  display: none;
+}
+
+/* table-drop */
+
+
+/* .cross {
+  
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/svg/CaretDown.svg");
+}
+.burger_active {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/svg/CaretUp.svg");
+} */
+.drop-table {
+  width: 375px;
+  margin: 0 auto;
+  height: fit-content;
+  padding: 10px;
+}
+
+.time {
+  width: 100%;
+  height: 40px;
+background: #E6EEF5;
+}
+
+.popup {
+  width: 100%;
+  height: fit-content;
+  
+}
+
+.hidden {
+  display: none
+}
+
+.active {
+  background: #CA2567;
+}
 
 
 @media screen and (min-width: 834px) {
